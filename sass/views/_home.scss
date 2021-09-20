@@ -1,0 +1,29 @@
+.hero {
+	margin-top: 1.5rem;
+	background-image: url(../../img/image-hero-coffeepress.jpg);
+	height: 56rem;
+	background-size: cover;
+	border-radius: 0.8rem;
+	position: relative;
+
+	&__container {
+		left: 8.5rem;
+		top: 11.5rem;
+		position: absolute;
+		max-width: 50rem;
+	}
+
+	&__tittle {
+		color: var(--color-blanco);
+		line-height: 1;
+		font-size: 7.2rem;
+	}
+	&__text {
+		margin: 3rem 0rem 4rem 0rem;
+		color: var(--color-blanco);
+		opacity: 80%;
+		font-size: 1.6rem;
+		width: 40rem;
+		line-height: 1.5;
+	}
+}

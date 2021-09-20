@@ -61,6 +61,37 @@ h4,
   background-color: var(--color-hover--btn);
 }
 
+.hero {
+  margin-top: 1.5rem;
+  background-image: url(../../img/image-hero-coffeepress.jpg);
+  height: 56rem;
+  background-size: cover;
+  border-radius: 0.8rem;
+  position: relative;
+}
+
+.hero__container {
+  left: 8.5rem;
+  top: 11.5rem;
+  position: absolute;
+  max-width: 50rem;
+}
+
+.hero__tittle {
+  color: var(--color-blanco);
+  line-height: 1;
+  font-size: 7.2rem;
+}
+
+.hero__text {
+  margin: 3rem 0rem 4rem 0rem;
+  color: var(--color-blanco);
+  opacity: 80%;
+  font-size: 1.6rem;
+  width: 40rem;
+  line-height: 1.5;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
