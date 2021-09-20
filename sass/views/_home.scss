@@ -1,3 +1,4 @@
+// ! ========= SECTION HERO =========
 .hero {
 	margin-top: 1.5rem;
 	background-image: url(../../img/image-hero-coffeepress.jpg);
@@ -25,5 +26,49 @@
 		font-size: 1.6rem;
 		width: 40rem;
 		line-height: 1.5;
+	}
+}
+// ! ========= SECTION COLLECTION ========= /
+.collection {
+	margin: 9rem;
+	&__tittle {
+		font-size: 15rem;
+		margin-bottom: -8rem;
+		background-image: linear-gradient(180deg, #83888f 0%, #fefcf7 80%);
+		-webkit-background-clip: text;
+		background-clip: text;
+		color: transparent;
+	}
+}
+
+// ! ========= SECTION BENEFITS ========= /
+
+.benefits {
+	background-color: var(--color-gris);
+	height: 58rem;
+
+	&__container {
+		max-width: 55rem;
+		margin: 0 auto;
+		padding-top: 10rem;
+		text-align: center;
+		margin-bottom: 5rem;
+	}
+
+	&__tittle {
+		color: var(--color-blanco);
+		font-size: 4rem;
+		margin-bottom: 3rem;
+	}
+
+	&__text {
+		color: var(--color-blanco);
+		opacity: 80%;
+	}
+
+	&__sub-container {
+		display: flex;
+		margin: 0rem 8rem;
+		gap: 2rem;
 	}
 }

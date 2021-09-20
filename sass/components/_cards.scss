@@ -1,0 +1,22 @@
+.cards {
+	background-color: var(--color-verde);
+	border-radius: 0.6rem;
+	text-align: center;
+	padding: 0rem 5rem;
+	flex: 0 1 100%;
+	&__tittle {
+		color: var(--color-blanco);
+		margin-top: 5rem;
+		margin-bottom: 2.5rem;
+		font-size: 2.4rem;
+	}
+
+	&__text {
+		color: var(--color-blanco);
+		margin-bottom: 5rem;
+	}
+
+	&__img {
+		margin-top: 7rem;
+	}
+}
