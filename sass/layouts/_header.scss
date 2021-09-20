@@ -1,0 +1,26 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4rem 0rem;
+
+	&__list {
+		display: flex;
+		gap: 3rem;
+	}
+	&__item {
+		list-style: none;
+	}
+	&__link {
+		color: var(--color-gris-claro);
+		font-size: 1.2rem;
+		display: inline-block;
+		text-transform: uppercase;
+		transition: all 0.3s;
+		font-weight: 700;
+
+		&:hover {
+			color: var(--color-hover--nav);
+		}
+	}
+}

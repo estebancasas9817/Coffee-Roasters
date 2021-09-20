@@ -1,1 +1,91 @@
-/* No CSS */
+:root {
+  --color-gris: #2c343e;
+  --color-crema: #fdd5ba;
+  --color-blanco: #fefcf6;
+  --color-verde: #0d8784;
+  --color-gris-oscuro: #d4d4d2;
+  --color-gris-claro: #83888e;
+  --color-hover--btn: #66d2cf;
+  --color-hover--nav: #333d4b;
+  --typography-titulos: 'Fraunces', serif;
+  --typography-parrafos: 'Barlow', serif;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  margin: 0 auto;
+  min-height: 100vh;
+  max-width: 125rem;
+}
+
+.header__link,
+p {
+  font-family: var(--typography-parrafos);
+}
+
+h1,
+h2,
+h3,
+h4,
+.btn {
+  font-family: var(--typography-titulos);
+}
+
+.btn, .btn:link, .btn:visited {
+  text-decoration: none;
+  display: inline-block;
+  background-color: var(--color-verde);
+  color: var(--color-blanco);
+  padding: 1.5rem 3rem;
+  border-radius: 0.6rem;
+  font-size: 1.8rem;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: var(--color-hover--btn);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0rem;
+}
+
+.header__list {
+  display: flex;
+  gap: 3rem;
+}
+
+.header__item {
+  list-style: none;
+}
+
+.header__link {
+  color: var(--color-gris-claro);
+  font-size: 1.2rem;
+  display: inline-block;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  font-weight: 700;
+}
+
+.header__link:hover {
+  color: var(--color-hover--nav);
+}
