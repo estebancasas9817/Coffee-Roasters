@@ -1,0 +1,36 @@
+.footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 4.5rem 0rem;
+	margin-top: 18rem;
+	background-color: var(--color-gris);
+
+	&__list {
+		display: flex;
+		gap: 3rem;
+	}
+	&__item {
+		list-style: none;
+	}
+	&__link {
+		color: var(--color-gris-claro);
+		font-size: 1.2rem;
+		display: inline-block;
+		text-transform: uppercase;
+		transition: all 0.3s;
+		font-weight: 700;
+		letter-spacing: 0.1rem;
+
+		&:hover {
+			color: var(--color-blanco);
+		}
+	}
+
+	&__media {
+		display: flex;
+		gap: 2rem;
+		justify-content: center;
+		align-items: center;
+	}
+}

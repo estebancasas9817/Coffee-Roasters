@@ -118,6 +118,17 @@ p {
   color: var(--color-hover--nav);
 }
 
+.fab {
+  font-size: 2.5rem;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.fab:hover {
+  color: var(--color-crema);
+  cursor: pointer;
+}
+
 .hero {
   margin-top: 1.5rem;
   background-image: url(../../img/image-hero-coffeepress.jpg);
@@ -282,4 +293,43 @@ p {
 
 .header__link:hover {
   color: var(--color-hover--nav);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4.5rem 0rem;
+  margin-top: 18rem;
+  background-color: var(--color-gris);
+}
+
+.footer__list {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer__item {
+  list-style: none;
+}
+
+.footer__link {
+  color: var(--color-gris-claro);
+  font-size: 1.2rem;
+  display: inline-block;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.footer__link:hover {
+  color: var(--color-blanco);
+}
+
+.footer__media {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }

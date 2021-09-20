@@ -1,0 +1,10 @@
+.fab {
+	font-size: 2.5rem;
+	color: #fff;
+	transition: all 0.3s;
+
+	&:hover {
+		color: var(--color-crema);
+		cursor: pointer;
+	}
+}
