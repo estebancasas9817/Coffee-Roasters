@@ -220,6 +220,41 @@ p {
   border-radius: 0.8rem;
 }
 
+.headquarters {
+  margin-top: 20rem;
+}
+
+.headquarters__tittle {
+  color: var(--color-gris-claro);
+  font-size: 2.4rem;
+  margin-bottom: 6rem;
+}
+
+.headquarters__container {
+  display: flex;
+  margin-bottom: 9rem;
+}
+
+.headquarters__sub-container {
+  flex: 0 1 100%;
+}
+
+.headquarters__number {
+  color: var(--color-crema);
+  font-size: 7.2rem;
+}
+
+.headquarters__sub-tittle {
+  font-size: 3.2rem;
+  margin: 2rem 0rem;
+  color: var(--color-hover--nav);
+}
+
+.headquarters__text {
+  width: 28rem;
+  color: var(--color-hover--nav);
+}
+
 .hero {
   margin-top: 1.5rem;
   background-image: url(../../img/image-hero-coffeepress.jpg);

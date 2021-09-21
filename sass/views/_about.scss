@@ -87,3 +87,39 @@
 		border-radius: 0.8rem;
 	}
 }
+
+// ! ========= SECTION HEADQUARTERS ========= /
+.headquarters {
+	margin-top: 20rem;
+
+	&__tittle {
+		color: var(--color-gris-claro);
+		font-size: 2.4rem;
+		margin-bottom: 6rem;
+	}
+
+	&__container {
+		display: flex;
+		margin-bottom: 9rem;
+		// gap: 3rem;
+	}
+
+	&__sub-container {
+		flex: 0 1 100%;
+	}
+	&__number {
+		color: var(--color-crema);
+		font-size: 7.2rem;
+	}
+
+	&__sub-tittle {
+		font-size: 3.2rem;
+		margin: 2rem 0rem;
+		color: var(--color-hover--nav);
+	}
+
+	&__text {
+		width: 28rem;
+		color: var(--color-hover--nav);
+	}
+}
