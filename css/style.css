@@ -60,6 +60,7 @@ p {
   border-radius: 0.6rem;
   font-size: 1.8rem;
   transition: all 0.5s;
+  background-color: var(--color-verde);
 }
 
 .btn:hover {
@@ -611,6 +612,10 @@ p {
   font-family: var(--typography-titulos);
 }
 
+.summary__order-text--modal {
+  color: var(--color-gris-claro);
+}
+
 .summary__order-span {
   display: inline-block;
   color: var(--color-verde);
@@ -620,6 +625,60 @@ p {
   background-color: var(--color-verde);
   align-self: flex-end;
   margin-top: 4rem;
+}
+
+.summary__popup {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  top: 1rem;
+  left: 1rem;
+  overflow: hidden;
+}
+
+.summary__modal {
+  width: 60rem;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  background-color: var(--color-blanco);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.summary__modal-container {
+  padding: 7rem 5rem;
+}
+
+.summary__modal-tittle {
+  font-size: 2.8rem;
+  color: var(--color-blanco);
+  background-color: var(--color-hover--nav);
+  padding: 2.5rem 2rem;
+}
+
+.summary__modal-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.summary__modal-price {
+  font-size: 3.2rem;
+  font-weight: 900;
+  flex: 0 1 100%;
+}
+
+.summary__modal--btn {
+  flex: 0 1 100%;
+  text-align: center;
+}
+
+.summary__modal-text {
+  margin-top: 2rem;
 }
 
 .summary__item.item-active {

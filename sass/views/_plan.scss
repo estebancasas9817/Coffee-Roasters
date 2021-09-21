@@ -93,6 +93,7 @@
 
 .summary {
 	padding: 8rem 8rem 0rem 8rem;
+	// background-color: red;
 
 	&__container {
 		display: flex;
@@ -146,9 +147,6 @@
 		&:hover {
 			color: var(--color-gris-claro);
 		}
-		// &:visited {
-		// 	color: var(--color-hover--nav);
-		// }
 	}
 
 	&__contenedor {
@@ -213,6 +211,10 @@
 		color: var(--color-blanco);
 		font-size: 2.4rem;
 		font-family: var(--typography-titulos);
+
+		&--modal {
+			color: var(--color-gris-claro);
+		}
 	}
 	&__order-span {
 		display: inline-block;
@@ -223,6 +225,63 @@
 		background-color: var(--color-verde);
 		align-self: flex-end;
 		margin-top: 4rem;
+	}
+
+	&__popup {
+		height: 100%;
+		width: 100%;
+		// background-color: rgba(0, 0, 0, 0.3);
+		// backdrop-filter: blur(1rem);
+		position: fixed;
+		z-index: 1000;
+		top: 1rem;
+		left: 1rem;
+		overflow: hidden;
+	}
+
+	&__modal {
+		width: 60rem;
+		// margin: 0 auto;
+		border-radius: 0.6rem;
+		overflow: hidden;
+		background-color: var(--color-blanco);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	&__modal-container {
+		padding: 7rem 5rem;
+	}
+
+	&__modal-tittle {
+		font-size: 2.8rem;
+		color: var(--color-blanco);
+		background-color: var(--color-hover--nav);
+		padding: 2.5rem 2rem;
+	}
+
+	&__modal-box {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 4rem;
+	}
+
+	&__modal-price {
+		font-size: 3.2rem;
+		font-weight: 900;
+		flex: 0 1 100%;
+	}
+
+	&__modal--btn {
+		flex: 0 1 100%;
+		text-align: center;
+	}
+
+	&__modal-text {
+		margin-top: 2rem;
 	}
 }
 
