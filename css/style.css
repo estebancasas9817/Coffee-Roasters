@@ -163,15 +163,15 @@ p {
 }
 
 .commit {
-  position: relative;
+  margin-bottom: 25rem;
 }
 
 .commit__container {
   display: flex;
-  position: absolute;
   left: 8.5rem;
+  margin-left: 8.5rem;
   gap: 15rem;
-  right: 8rem;
+  margin-right: 8rem;
   justify-content: center;
   align-items: center;
 }
@@ -189,6 +189,35 @@ p {
 
 .commit__text {
   color: var(--color-hover--nav);
+}
+
+.quality {
+  position: relative;
+}
+
+.quality__container {
+  background-color: var(--color-gris);
+  display: flex;
+  border-radius: 0.6rem;
+  justify-content: center;
+  gap: 10rem;
+  padding: 8.5rem;
+}
+
+.quality__tittle {
+  color: var(--color-blanco);
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.quality__text {
+  color: var(--color-blanco);
+  opacity: 0.8;
+}
+
+.quality__img {
+  margin-top: -18rem;
+  border-radius: 0.8rem;
 }
 
 .hero {
