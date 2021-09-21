@@ -129,6 +129,68 @@ p {
   cursor: pointer;
 }
 
+.about-hero {
+  margin-top: 1.5rem;
+  background-image: url(../../img/image-hero-whitecup.jpg);
+  height: 56rem;
+  background-size: cover;
+  border-radius: 0.8rem;
+  background-position: center;
+  position: relative;
+  margin-bottom: 10rem;
+}
+
+.about-hero__container {
+  left: 8.5rem;
+  top: 11.5rem;
+  position: absolute;
+  max-width: 50rem;
+}
+
+.about-hero__tittle {
+  color: var(--color-blanco);
+  line-height: 1;
+  font-size: 7.2rem;
+}
+
+.about-hero__text {
+  margin: 3rem 0rem 4rem 0rem;
+  color: var(--color-blanco);
+  opacity: 80%;
+  font-size: 1.6rem;
+  width: 40rem;
+  line-height: 1.5;
+}
+
+.commit {
+  position: relative;
+}
+
+.commit__container {
+  display: flex;
+  position: absolute;
+  left: 8.5rem;
+  gap: 15rem;
+  right: 8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.commit__img {
+  border-radius: 0.6rem;
+}
+
+.commit__tittle {
+  font-size: 3.2rem;
+  color: var(--color-hover--nav);
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+}
+
+.commit__text {
+  color: var(--color-hover--nav);
+}
+
 .hero {
   margin-top: 1.5rem;
   background-image: url(../../img/image-hero-coffeepress.jpg);

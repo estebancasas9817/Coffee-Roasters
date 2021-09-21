@@ -1,0 +1,63 @@
+// ! ========= SECTION ABOUT HERO ========= /
+.about-hero {
+	margin-top: 1.5rem;
+	background-image: url(../../img/image-hero-whitecup.jpg);
+	height: 56rem;
+	background-size: cover;
+	border-radius: 0.8rem;
+	background-position: center;
+	position: relative;
+	margin-bottom: 10rem;
+
+	&__container {
+		left: 8.5rem;
+		top: 11.5rem;
+		position: absolute;
+		max-width: 50rem;
+	}
+
+	&__tittle {
+		color: var(--color-blanco);
+		line-height: 1;
+		font-size: 7.2rem;
+	}
+	&__text {
+		margin: 3rem 0rem 4rem 0rem;
+		color: var(--color-blanco);
+		opacity: 80%;
+		font-size: 1.6rem;
+		width: 40rem;
+		line-height: 1.5;
+	}
+}
+
+// ! ========= SECTION COMMITMENT ========= /@at-root
+.commit {
+	position: relative;
+	&__container {
+		display: flex;
+		position: absolute;
+		left: 8.5rem;
+		gap: 15rem;
+		right: 8rem;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__img {
+		border-radius: 0.6rem;
+	}
+
+	&__box {
+	}
+	&__tittle {
+		font-size: 3.2rem;
+		color: var(--color-hover--nav);
+		font-weight: 700;
+		margin-bottom: 3.5rem;
+	}
+
+	&__text {
+		color: var(--color-hover--nav);
+	}
+}
