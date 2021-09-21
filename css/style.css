@@ -391,6 +391,96 @@ p {
   border: none;
 }
 
+.plan-hero {
+  margin-top: 1.5rem;
+  background-image: url(../../img/image-hero-blackcup.jpg);
+  height: 56rem;
+  background-size: cover;
+  border-radius: 0.8rem;
+  background-position: center;
+  position: relative;
+  margin-bottom: 10rem;
+}
+
+.plan-hero__container {
+  left: 8.5rem;
+  top: 11.5rem;
+  position: absolute;
+  max-width: 50rem;
+}
+
+.plan-hero__tittle {
+  color: var(--color-blanco);
+  line-height: 1;
+  font-size: 7.2rem;
+}
+
+.plan-hero__text {
+  margin: 3rem 0rem 4rem 0rem;
+  color: var(--color-blanco);
+  opacity: 80%;
+  font-size: 1.6rem;
+  width: 40rem;
+  line-height: 1.5;
+}
+
+.steps {
+  margin-top: 20rem;
+  background-color: var(--color-gris);
+  padding: 9rem;
+}
+
+.steps__container {
+  display: flex;
+  margin-bottom: 9rem;
+}
+
+.steps__sub-container {
+  flex: 0 1 100%;
+}
+
+.steps__number {
+  color: var(--color-crema);
+  font-size: 7.2rem;
+}
+
+.steps__sub-tittle {
+  font-size: 3.2rem;
+  margin: 2rem 0rem;
+  color: var(--color-blanco);
+}
+
+.steps__text {
+  width: 28rem;
+  color: var(--color-blanco);
+}
+
+.steps__draw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.steps__bullet {
+  background-color: transparent;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  border: 0.2rem solid var(--color-verde);
+}
+
+.steps__line {
+  width: 95%;
+  background-color: transparent;
+  border: 0.1rem solid var(--color-crema);
+  height: 0.1rem;
+}
+
+.steps__line--none {
+  border: none;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
